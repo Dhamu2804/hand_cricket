@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>super over</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mm">
+    <div>
+        <h4 style="text-align: center;font-size: 35px;" id="hh">Super Over Match</h4>
+    </div>
+    <div class="main">
+        <div class="im">
+            <div class="im1">
+                <img src="CSK-Logo.png" alt="">
+                <h4>CSK</h4>
+                <div class="score1" id="p1">
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                </div>
+                <input type="submit" value="CSK Batting" onclick="updatecskscore()" style="margin-top: 20px;">
+            </div>
+            <div class="im2" style="display: flex;" id="score">
+               <div id="s11">
+                00
+               </div>
+               <div>-</div>
+               <div id="s12">
+                00
+               </div>
+            </div>
+            <div class="im3">
+                <img src="Mumbai-Indians-logo.png" alt="">
+                <h4>MI</h4>
+                <div class="score1" id="p2" style="margin-top: 50px;">
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                    <div id="sc1">_</div>
+                </div>
+                <input type="submit" value="Mi Batting" onclick="updatemiscore()" style="margin-top: 40px; width: 250px;">
+            </div>
+        </div>
+    </div>
+    <div class="cc" style="display: flex; justify-content: center;">
+    <input type="submit" value="Refresh" onclick="window.location.reload()" style="margin-top: 20px; width: 250px;text-align: center;">
+    </div>
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
